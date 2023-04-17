@@ -558,11 +558,11 @@ MonoBehaviour:
   wheel: {fileID: 1548885633}
   playerObject: {fileID: 584932924}
   initSpawnRate: 3
-  spawnRateIncrease: 0.05
+  spawnRateIncrease: 0.1
   maxInitVelocity: 0.45
   minInitVelocity: 0.15
-  maxVelocityIncrease: 0.003
-  minVelocityIncrease: 0.001
+  maxVelocityIncrease: 0.006
+  minVelocityIncrease: 0.002
   minScale: 0.2
   maxScale: 0.5
 --- !u!114 &706199569
@@ -811,9 +811,9 @@ MonoBehaviour:
   - -0.06
   - 0.09
   rotationSpeedsIncrease:
-  - 0.0001
-  - -0.0002
-  - 0.0003
+  - 0.0002
+  - -0.0004
+  - 0.0006
   ringPrefab: {fileID: 5301359191513645400, guid: 8a899c7efa9a86146aeae784a66753b2, type: 3}
   playerObject: {fileID: 584932924}
 --- !u!4 &1548885635
