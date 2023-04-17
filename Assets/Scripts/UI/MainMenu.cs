@@ -20,7 +20,12 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game"); // Replace "GameScene" with the name of your main game scene
+        SceneManager.LoadScene("Game"); 
+    }
+
+    public void ViewHistory()
+    {
+        SceneManager.LoadScene("HistoryMenu"); 
     }
 
     public void QuitGame()

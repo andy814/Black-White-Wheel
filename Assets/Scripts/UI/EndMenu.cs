@@ -16,7 +16,8 @@ public class EndMenu : MonoBehaviour
     void Start()
     {
         // Retrieve the time survived value from PlayerPrefs
-        timeSurvived = PlayerPrefs.GetFloat("surviveTime", 0f);
+        int historyCount = PlayerPrefs.GetInt("historyCount", 0);
+        timeSurvived = PlayerPrefs.GetFloat($"surviveTimeHistory{historyCount}", 0);
 
         // Update the timeSurvivedText with the actual timeSurvived value
         //timeSurvivedText.text = $"{timeSurvived}";
